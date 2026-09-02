@@ -6,6 +6,8 @@ import {
 } from "react-icons/fa";
 
 export default function Hero() {
+  const base = import.meta.env.BASE_URL;
+
   return (
     <section className="hero">
 
@@ -30,14 +32,12 @@ export default function Hero() {
         </h2>
 
         <p>
-         <p>
            Desenvolvedor Front-End e Desenvolvedor Back-End Python especializado em React,
            Next.js, TypeScript, JavaScript, Python e Flask.
 
            Atualmente moro em Portimão, Portugal, desenvolvendo projetos modernos com foco
            em interfaces intuitivas, responsivas e APIs robustas, buscando minha primeira
            oportunidade como desenvolvedor.
-        </p>
         </p>
 
         <div className="tecnologias">
@@ -49,13 +49,14 @@ export default function Hero() {
         </div>
 
         <div className="hero-buttons">
-          <a href="/projetos" className="btn-primary">
+          <a href={`${base}projetos`} className="btn-primary">
             Ver Projetos
           </a>
 
           <a
-            href="/cv/CV-Magnum.pdf"
+            href={`${base}cv/CV-Magnum.pdf`}
             target="_blank"
+            rel="noopener noreferrer"
             className="btn-outline"
           >
             Baixar Currículo
@@ -67,18 +68,22 @@ export default function Hero() {
           <a
             href="https://github.com/Magnum2029"
             target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub de Magnum Santos"
           >
             <FaGithub />
           </a>
 
           <a
-            href="https://linkedin.com"
+            href="https://linkedin.com/in/magnum-de-oliveira-santos-b138041a1"
             target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn de Magnum Santos"
           >
             <FaLinkedinIn />
           </a>
 
-          <a href="mailto:magnum@email.com">
+          <a href="mailto:magnumsantos@gmail.com" aria-label="Enviar e-mail para Magnum Santos">
             <FaEnvelope />
           </a>
 
@@ -93,9 +98,13 @@ export default function Hero() {
           <img
             
             
-           src={`${import.meta.env.BASE_URL}images/magnum.jpg`}
+           src={`${base}images/magnum.webp`}
            alt="Magnum Santos"
             className="hero-image"
+            width="600"
+            height="800"
+            decoding="async"
+            fetchPriority="high"
           />
           
           

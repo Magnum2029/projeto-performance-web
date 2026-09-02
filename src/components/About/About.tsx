@@ -7,7 +7,14 @@ export default function About() {
       <div className="about-container">
         {/* Foto */}
         <div className="about-image">
-          <img src="/images/magnum.jpeg" alt="Magnum Santos" />
+          <img
+            src={`${import.meta.env.BASE_URL}images/magnum.webp`}
+            alt="Magnum Santos"
+            loading="lazy"
+            decoding="async"
+            width="600"
+            height="800"
+          />
         </div>
 
         {/* Texto */}

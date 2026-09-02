@@ -21,7 +21,7 @@ export const projetos: Projeto[] = [
     tecnologias: ["Python", "Flask", "SQLite"],
     github: "https://github.com/Magnum2029/luxury-wheels",
     demo: "https://github.com/Magnum2029/luxury_wheels",
-    imagem: `${BASE}images/Projeto/luxury-wheels.png`,
+    imagem: `${BASE}images/Projeto/luxury-wheels.webp`,
   },
 
   {
@@ -32,7 +32,7 @@ export const projetos: Projeto[] = [
     tecnologias: ["React", "TypeScript"],
     github: "https://github.com/Magnum2029/portal-viagens",
     demo: "https://portal-viagens.vercel.app",
-    imagem: `${BASE}images/Projeto/portal-viagens.png`,
+    imagem: `${BASE}images/Projeto/portal-viagens.webp`,
   },
 
   {
@@ -43,7 +43,7 @@ export const projetos: Projeto[] = [
     tecnologias: ["Next.js", "TypeScript"],
     github: "https://github.com/Magnum2029/next-blog-ibac",
     demo: "https://next-blog-ibac.vercel.app",
-    imagem: `${BASE}images/Projeto/next-blog.png`,
+    imagem: `${BASE}images/Projeto/next-blog.webp`,
   },
 
   {
@@ -55,6 +55,6 @@ export const projetos: Projeto[] = [
     tecnologias: ["React", "Jest"],
     github: "https://github.com/Magnum2029/next-tarefas-testes",
     demo: "",
-    imagem: `${BASE}images/Projeto/tarefas.png`,
+    imagem: `${BASE}images/Projeto/tarefas.webp`,
   },
 ];

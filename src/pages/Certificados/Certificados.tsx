@@ -17,7 +17,14 @@ export default function Certificados() {
           {certificados.map((certificado) => (
             <article className="cert-card" key={certificado.id}>
               <a href={certificado.pdf} target="_blank" rel="noopener noreferrer" aria-label={`Abrir certificado ${certificado.titulo}`}>
-                <img src={certificado.imagem} alt={`Certificado ${certificado.titulo}`} />
+                <img
+                  src={certificado.imagem}
+                  alt={`Certificado ${certificado.titulo}`}
+                  loading="lazy"
+                  decoding="async"
+                  width="800"
+                  height="566"
+                />
               </a>
               <div className="cert-card-content">
                 <span>{certificado.instituicao}</span>

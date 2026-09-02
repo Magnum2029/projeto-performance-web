@@ -13,6 +13,10 @@ export default function ProjectCard({ projeto }: Props) {
         src={projeto.imagem}
         alt={projeto.titulo}
         className="project-image"
+        loading="lazy"
+        decoding="async"
+        width="800"
+        height="500"
       />
 
       <div className="project-content">
