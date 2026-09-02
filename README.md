@@ -21,10 +21,10 @@ A primeira análise foi realizada no modo Mobile do Lighthouse, antes das otimiz
 
 | Categoria | Antes | Depois |
 |---|---:|---:|
-| Performance | 100 | A preencher após a reanálise |
-| Acessibilidade | 87 | A preencher após a reanálise |
-| Boas Práticas | 100 | A preencher após a reanálise |
-| SEO | 91 | A preencher após a reanálise |
+| Performance | 100 | 100 |
+| Acessibilidade | 87 | 98 |
+| Boas Práticas | 100 | 100 |
+| SEO | 91 | 100 |
 
 ![Relatório Lighthouse antes das otimizações](./relatorios/lighthouse-antes.png)
 
@@ -63,7 +63,18 @@ A maior redução ocorreu nas imagens. A conversão para WebP e o redimensioname
 
 ## Relatório final
 
-O print e os valores finais serão adicionados após uma nova análise com as mesmas configurações do Lighthouse.
+A reanálise foi realizada no Lighthouse com as mesmas configurações do teste inicial. A Performance e as Boas Práticas mantiveram a pontuação máxima. A Acessibilidade aumentou 11 pontos, passando de 87 para 98, e o SEO aumentou 9 pontos, passando de 91 para 100.
+
+![Relatório Lighthouse depois das otimizações](./relatorios/lighthouse-depois.png)
+
+## Comparativo e conclusão
+
+- **Performance:** permaneceu em 100, mesmo com a redução adicional dos recursos transferidos.
+- **Acessibilidade:** aumentou de 87 para 98 após correções semânticas e inclusão de nomes acessíveis nos links.
+- **Boas Práticas:** permaneceu em 100.
+- **SEO:** aumentou de 91 para 100 após a definição correta do idioma, título e descrição da página.
+
+As alterações de maior impacto foram a conversão e o redimensionamento das imagens, a divisão do JavaScript por rota, a remoção de código não utilizado e as correções de acessibilidade e metadados. O resultado final apresenta carregamento mais leve, estrutura mais organizada e melhores condições de navegação e indexação.
 
 ## Como executar
 
