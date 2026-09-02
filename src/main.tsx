@@ -7,7 +7,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <BrowserRouter basename="/portfolio-magnum-react/">
+    <BrowserRouter basename="/projeto-performance-web/">
       <App />
     </BrowserRouter>
   </React.StrictMode>
