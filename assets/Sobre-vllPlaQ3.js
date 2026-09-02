@@ -1,0 +1,1 @@
+import{u as e}from"./index-w23tpUuv.js";var t=e();function n(){return(0,t.jsxs)(`main`,{className:`page`,children:[(0,t.jsx)(`h1`,{children:`Sobre Mim`}),(0,t.jsx)(`p`,{children:`Olá! Eu sou Magnum Santos, desenvolvedor Front-End e Desenvolvedor Back-End Python. Atualmente moro em Portimão, Portugal e estou em formação pela EBAC e Tokio School.`})]})}export{n as default};
