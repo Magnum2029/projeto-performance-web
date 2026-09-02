@@ -1,0 +1,113 @@
+.contact {
+  padding: 90px 8%;
+  background: #111111;
+  color: white;
+}
+
+.subtitle {
+  color: #43abdf;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 12px 0;
+}
+
+.descricao {
+  text-align: center;
+  color: #a1a1aa;
+  max-width: 650px;
+  margin: 0 auto 40px;
+  line-height: 1.7;
+}
+
+.form {
+  max-width: 650px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.input,
+.textarea {
+  background: #171717;
+  border: 1px solid #27272a;
+  border-radius: 10px;
+  padding: 14px;
+  color: white;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: #777;
+}
+
+.textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.botao {
+  background: #0e3447;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.botao:hover {
+  background: #008bd1;
+}
+
+.ok {
+  color: #4ade80;
+  text-align: center;
+}
+
+.erro {
+  color: #f87171;
+  text-align: center;
+}
+
+/* Redes sociais */
+
+.redes {
+  margin-top: 50px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 18px;
+}
+
+.redes a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  text-decoration: none;
+
+  padding: 16px;
+
+  background: #171717;
+  color: white;
+
+  border: 1px solid #27272a;
+  border-radius: 12px;
+
+  transition: .3s;
+}
+
+.redes a:hover {
+  border-color: #0e3447;
+  color: #0e3447;
+}
